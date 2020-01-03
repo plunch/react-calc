@@ -1,0 +1,14 @@
+@import "~normalize.css/normalize.css";
+
+@import "calculator.scss";
+
+html, body, main {
+	height: 100%;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #555;
+}
